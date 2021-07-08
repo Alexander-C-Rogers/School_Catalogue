@@ -40,6 +40,12 @@ class PrimarySchool extends School {
     }
 }
 
+class Middle extends School {
+  constructor(name, level, numberOfStudents){
+    super(name, 'Middle', numberOfStudents);
+  }
+}
+
 class HighSchool extends School {
     constructor(name, numberOfStudents, sportsTeams) {
       super(name, 'high', numberOfStudents);
